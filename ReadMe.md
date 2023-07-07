@@ -51,4 +51,9 @@ Before the train of model you might create/prepare file config.py and dataset.
    - converter of detection (from file .pkl to file .json) - extract_dets_from_mmdet.py
    - converter annotations to LabelStudio - convert_to_LS.py
 
-   
+7. Docker
+
+   - MMDetection repository comes with a [Dockerfile](https://github.com/open-mmlab/mmdetection/blob/master/docker/Dockerfile)
+
+   - Already build Docker image, enriched with Tensorboard, is available here: https://hub.docker.com/r/mbuk/mmdet
+
