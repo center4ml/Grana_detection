@@ -4,7 +4,7 @@
 
    To train the model in container you can use following commands:
 
-   `python /mmdetection/tools/train.py /.../config.py --cfg-options optimizer.lr=0.00`4
+   `python /mmdetection/tools/train.py /.../config.py --cfg-options optimizer.lr=0.004`
 
    
    
